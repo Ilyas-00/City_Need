@@ -1,0 +1,55 @@
+name: the_city_flutter
+description: The City Flutter
+
+# don't edit this
+publish_to: 'none'
+
+version: 1.0.4+104
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+# don't edit this
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  http: ^0.13.4
+  http_interceptor: ^1.0.2
+  cupertino_icons: ^1.0.5
+  package_info: ^2.0.2
+  firebase_core: ^1.20.0
+  firebase_messaging: ^12.0.1
+  google_mobile_ads: ^1.3.0
+  flutter_local_notifications: ^9.7.0
+  flutter_speed_dial: ^6.0.0
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.5
+  device_info: ^2.0.3
+  webview_flutter: ^3.0.4
+  sqflite: ^2.0.3
+  toast: ^0.3.0
+  intl: ^0.17.0
+  sprintf: ^6.0.0
+  path_provider: ^2.0.11
+  vibration: ^1.7.4
+  cached_network_image: ^3.2.1
+  flutter_cache_manager: ^3.3.0
+  google_maps_flutter: ^2.1.9
+  location: ^4.4.0
+  image: ^3.2.0
+  share: ^2.0.4
+
+dependency_overrides:
+  firebase_core_platform_interface: 4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# don't edit this
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
